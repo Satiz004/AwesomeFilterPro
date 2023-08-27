@@ -383,7 +383,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://shorturllink.in/api'
+    url = f'https://indianshortner.com/st?api=ecbcea6067bba928beed9eb37323cfea33c06b2a&url=yourdestinationlink.com/ecbcea6067bba928beed9eb37323cfea33c06b2a'
     params = {'api': SHORTNER_API,
               'url': link,
               }
